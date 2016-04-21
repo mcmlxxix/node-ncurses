@@ -1,22 +1,33 @@
 {
-	"name": "node-curses",
-	"description": "library for ncurses-style GUI rendering in node.js",
-	"version": "1.0.0",
-	"author": {
-		"name": "Matt Johnson",
-		"email": "mdj1979@gmail.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/mcmlxxix/node-curses.git"
-	},
-	"bugs": {
-		"url": "https://github.com/mcmlxxix/node-curses/issues"
-	},
-	"licenses": [{
-		"type": "GNU",
-		"url": "https://github.com/mcmlxxix/node-curses/LICENSE"
-	}],
-	"main": "./ansi",
-	"keywords": ["library", "ansi", "csi", "curses", "gui"]
+  "name": "node-curses",
+  "description": "library for ncurses-style GUI rendering in node.js",
+  "version": "1.0.0",
+  "author": {
+    "name": "Matt Johnson",
+    "email": "mdj1979@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mcmlxxix/node-curses.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcmlxxix/node-curses/issues"
+  },
+  "licenses": [
+    {
+      "type": "GNU",
+      "url": "https://github.com/mcmlxxix/node-curses/LICENSE"
+    }
+  ],
+  "main": "./ansi",
+  "keywords": [
+    "library",
+    "ansi",
+    "csi",
+    "curses",
+    "gui"
+  ],
+  "dependencies": {
+    "node-ansi": "git://github.com/mcmlxxix/node-ansi.git"
+  }
 }
