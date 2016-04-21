@@ -1,5 +1,5 @@
 {
-  "name": "node-curses",
+  "name": "node-ncurses",
   "description": "library for ncurses-style GUI rendering in node.js",
   "version": "1.0.0",
   "author": {
@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mcmlxxix/node-curses.git"
+    "url": "git://github.com/mcmlxxix/node-ncurses.git"
   },
   "bugs": {
-    "url": "https://github.com/mcmlxxix/node-curses/issues"
+    "url": "https://github.com/mcmlxxix/node-ncurses/issues"
   },
   "licenses": [
     {
       "type": "GNU",
-      "url": "https://github.com/mcmlxxix/node-curses/LICENSE"
+      "url": "https://github.com/mcmlxxix/node-ncurses/LICENSE"
     }
   ],
-  "main": "./ansi",
+  "main": "./node-ncurses",
   "keywords": [
     "library",
     "ansi",
